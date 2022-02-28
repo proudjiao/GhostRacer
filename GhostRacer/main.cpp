@@ -24,11 +24,12 @@ bool is_directory(string path)
 }
 #endif
 
+//IMPORTANT
   // If your program is having trouble finding the Assets directory,
   // replace the string literal with a full path name to the directory,
   // e.g., "Z:/CS32/GhostRacer/Assets" or "/Users/fred/cs32/GhostRacer/Assets"
 
-const string assetDirectory = "/Users/jiaoao/Desktop/College/Y1Q2/CS32_Smallberg/xcode/project4/GhostRacer 2/DerivedData/GhostRacer/Build/Products/Debug/Assets";
+const string assetDirectory = "Assets";
 
 class GameWorld;
 
